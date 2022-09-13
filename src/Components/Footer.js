@@ -50,7 +50,7 @@ mt-10
 '>
 
   {footerLinks.map((footerlink)=>(
-    <div key={footerlink.key}
+    <div key={footerlink.name}
     className='flex flex-col
     ss:my-0
     my-4
